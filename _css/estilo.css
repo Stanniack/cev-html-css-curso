@@ -44,3 +44,32 @@ figure.legendasDasFotos figcaption {
 figure.legendasDasFotos:hover figcaption {
     opacity: 1;
 }
+
+/* Formatação do nav menu*/
+
+/* Trnasformar layout como bloco para pdoer flutuar em toda tela */
+nav#menu {
+    display: block;
+}
+
+/* Formatação para a lista */
+nav#layout ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 600px;
+}
+
+/* Formatação para os itens da lista */
+nav#layout li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 3px;
+}
+
+/* Esconder item */
+nav#layout h1 {
+    display: none;
+}
