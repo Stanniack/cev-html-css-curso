@@ -67,6 +67,24 @@ nav#layout li {
     background-color: #dddddd;
     padding: 10px;
     margin: 3px;
+    transition: background-color 1s; /* Transição de estilo */
+
+}
+
+/* Estilização de cada objeto da lista do layout*/
+nav#layout li:hover {
+    background-color: #606060;
+}
+
+/* Retirar sublinhado e alterar cor dos links*/
+nav#layout a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilização dos links - fica branco ao pairar o mouse */
+nav#layout a:hover {
+    color: #ffffff;
 }
 
 /* Esconder item */
