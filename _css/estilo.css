@@ -6,13 +6,39 @@ p {
 }
 
 body {
-    background-color: white;
+    background-color: #dddddd;
     color: rgba(0,0,0,0.8);
     
 }
 
-/* - Formatação de legendas de imagens */
+/* Configurações da div global interface */
+div#interface {
+    /* Margem externa */
+    margin: -20px auto 0px auto;
+    /* Margem interna */
+    padding: 15px;
+    width: 900px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    background-color: white;
+}
 
+/* Configuração do cabeçalho */
+
+/* Configuração óculos ícone*/
+img#oculos_icone {
+    position: absolute;
+    top: 40px;
+    left: 72%;
+}
+
+/* Configuração cabeçalho */
+header#cabecalho {
+    
+}
+
+
+
+/* - Formatação de legendas de imagens */
 figure.legendasDasFotos {
     position: relative;
     border: 8px solid white;
@@ -47,8 +73,8 @@ figure.legendasDasFotos:hover figcaption {
 
 /* Formatação do nav menu*/
 
-/* Trnasformar layout como bloco para pdoer flutuar em toda tela */
-nav#menu {
+/* Transformar layout como bloco para poder flutuar em toda tela */
+nav#layout {
     display: block;
 }
 
