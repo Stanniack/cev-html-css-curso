@@ -27,17 +27,33 @@ div#interface {
 /* Configuração óculos ícone*/
 img#oculos_icone {
     position: absolute;
-    top: 40px;
+    top: 80px;
     left: 72%;
 }
 
 /* Configuração cabeçalho */
 header#cabecalho {
-    
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0% 90%;
 }
 
+header#cabecalho h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
 
-
+header#cabecalho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
 /* - Formatação de legendas de imagens */
 figure.legendasDasFotos {
     position: relative;
@@ -84,7 +100,7 @@ nav#layout ul {
     text-transform: uppercase;
     position: absolute;
     top: -15px;
-    left: 600px;
+    left: 480px;
 }
 
 /* Formatação para os itens da lista */
