@@ -16,6 +16,7 @@ body {
     
 }
 
+/* Estilização da tabela */
 table#tabela_especificacoes {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -25,6 +26,35 @@ table#tabela_especificacoes {
 table#tabela_especificacoes td {
     border: 1px solid #606060;
     padding: 10px;
+}
+
+table#tabela_especificacoes td.ce {
+    color: white;
+    background-color: #606060;
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+table#tabela_especificacoes td.cd {
+    color: white;
+    background-color: #cecece;
+    text-align: left;
+}
+
+table#tabela_especificacoes caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+table#tabela_especificacoes caption span{
+    display: block;
+    float: right;
+    font-size: 8pt;
+    font-weight: bold;
+    margin-top: 8px;
+    color: black;
 }
 
 /* Configurações da div global interface */
