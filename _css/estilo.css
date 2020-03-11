@@ -26,7 +26,8 @@ body {
     
 }
 
-/* Formatação semântica - h's */
+/* ------------------------------------------------------------------------- */
+/* Formatação semântica - article */
 article#artigo_princ h2{
     color: #606060;
     font-size: 13pt;
@@ -77,6 +78,7 @@ article#lateral h2 {
     font-weight: bold;
 }
 
+/* ------------------------------------------------------------------------- */
 /* Estilização da tabela */
 table#tabela_especificacoes {
     border: 1px solid #606060;
@@ -117,7 +119,7 @@ table#tabela_especificacoes caption span{
     margin-top: 8px;
     color: black;
 }
-
+/* ------------------------------------------------------------------------- */
 /* Configurações da div global interface */
 div#interface {
     /* Margem externa */
@@ -128,9 +130,7 @@ div#interface {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     background-color: white;
 }
-
 /* Configuração do cabeçalho */
-
 /* Configuração óculos ícone*/
 img#oculos_icone {
     position: absolute;
@@ -162,6 +162,7 @@ header#cabecalho h2 {
     padding: 0px;
     margin-top: 0px;
 }
+/* ------------------------------------------------------------------------- */
 /* - Formatação de legendas de imagens */
 figure.legendasDasFotos {
     position: relative;
@@ -195,6 +196,7 @@ figure.legendasDasFotos:hover figcaption {
     opacity: 1;
 }
 
+/* ------------------------------------------------------------------------- */
 /* Formatação do nav menu*/
 
 /* Transformar layout como bloco para poder flutuar em toda tela */
@@ -241,8 +243,8 @@ nav#layout h1 {
     display: none;
 }
 
+/* ------------------------------------------------------------------------- */
 /* Semântica do conteúdo*/
-
 section#conteudo_principal {
     display: block;
     width: 500px;
@@ -252,7 +254,7 @@ section#conteudo_principal {
     padding-right: 20px;
     padding-bottom: 10px;
 }
-
+/* ------------------------------------------------------------------------- */
 aside#conteudo_lateral {
     display: block;
     width: 350px;
@@ -262,7 +264,7 @@ aside#conteudo_lateral {
     padding: 10px;
     margin-top: 10px;
 }
-
+/* ------------------------------------------------------------------------- */
 footer#rodape {
     /* Separar o rodapé do section e aside */
     clear: both;

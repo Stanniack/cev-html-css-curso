@@ -4,14 +4,17 @@
 
 <head>
     <title>Tudo Sobre Google Glass</title>
+    <!-- Link para chamar arquivos .css -->
     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
 
 </head>
 
+<script type="text/javascript" src="_javascript/funcoes.js"></script>
+
 <body>
-
+    
     <div id="interface">
-
+    
         <header id="cabecalho">
 
             <hgroup>
@@ -21,14 +24,14 @@
 
             <img id="oculos_icone" src="_imagens/glass-oculos-preto-peq.png">
 
-            <nav id="layout"> 
+            <nav id="layout" onmouseout="acaoFoto('_imagens/glass-oculos-preto-peq.png')"> 
                 <h1>Menu Principal</h1>
                 <ul type="square">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="specs.html">Especificações</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
-                    <li><a href="multimidia.html">Multimídia</a></li>
-                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                    <li onmousemove="acaoFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
+                    <li onmousemove="acaoFoto('_imagens/especificações.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmousemove="acaoFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmousemove="acaoFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmousemove="acaoFoto('_imagens/fale-conosco.png')"><a href="fale-conosco.html">Fale conosco</a></li>
                 </ul>
             </nav>
 
