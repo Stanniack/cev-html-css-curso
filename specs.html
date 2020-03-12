@@ -56,8 +56,23 @@
                 </p> 
 
                 <section id="conteudo_iframe">
-                    <img src="_imagens/glass-esquema-marcado.jpg" alt="Especificações Google Glass">
+                    <img src="_imagens/glass-esquema-marcado.jpg" alt="Especificações Google Glass" usemap="#meumapa">
+                    <map name="meumapa">
+                        <area shape="rect" coords="181,215,267,249" href="google-glass.html#tela" 
+                        alt="Info tela" target="janela_specs"/>
+
+                        <area shape="circle" coords="158,245,11" href="google-glass.html#camera" 
+                        alt="Info câmera" target="janela_specs"/>
+
+                        <area shape="circle" coords="78,52,11" href="google-glass.html#bateria" 
+                        alt="Info gadgets" target="janela_specs">
+
+                        <area shape="poly" coords="27,146,27,171,83,252,84,216" href="google-glass.html#sensores" 
+                        alt="Info sensores" target="janela_specs">
+
+                    </map>
                     <iframe src="google-glass.html" name="janela_specs" id="id_specs_janela" scrolling="no"></iframe>
+                    
                 </section>
                 
             </article>
