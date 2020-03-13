@@ -5,16 +5,17 @@
 <head>
     <title>Tudo Sobre Google Glass</title>
     <!-- Link para chamar arquivos .css -->
-    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/media.css">    
 
 </head>
 
 <script type="text/javascript" src="_javascript/funcoes.js"></script>
 
 <body>
-    
+
     <div id="interface">
-    
+
         <header id="cabecalho">
 
             <hgroup>
@@ -24,38 +25,57 @@
 
             <img id="oculos_icone" src="_imagens/multimidia.png">
 
-            <nav id="layout" onmouseout="acaoFoto('_imagens/multimidia.png')"> 
+            <nav id="layout" onmouseout="acaoFoto('_imagens/multimidia.png')">
                 <h1>Menu Principal</h1>
                 <ul type="square">
                     <li onmousemove="acaoFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
-                    <li onmousemove="acaoFoto('_imagens/especificações.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmousemove="acaoFoto('_imagens/especificações.png')"><a href="specs.html">Especificações</a>
+                    </li>
                     <li onmousemove="acaoFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
                     <li onmousemove="acaoFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
-                    <li onmousemove="acaoFoto('_imagens/fale-conosco.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    <li onmousemove="acaoFoto('_imagens/fale-conosco.png')"><a href="fale-conosco.html">Fale conosco</a>
+                    </li>
                 </ul>
             </nav>
 
         </header>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <section id="conteudo_multimidia">
+            <article id="artigo_princ">
 
+                <header id="cabecalho_artigo">
+                    <hgroup>
+                        <h2>Glass > Multimídia</h2>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara | Mateus Vitor</h2>
+                        <h2><span>Atualizado em 21/Fevereiro/2020</span></h2>
+                    </hgroup>
+                </header>
 
-Áudio e Vídeo
+                <div id="audio_video">
 
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+                    <audio id="musica" controls="controls">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+                        Desculpe, mas não foi possível carregar o áudio
+                    </audio>
 
-            <footer id="rodape">
-                <p>Copyright 2013/2020 - by Gustavo Guanabara and Mateus Vitor</p>
-                <p>Facebook | Twitter </p>
-            </footer>
+                    <video id="video" controls="controls" poster="_imagens/video-mini03.jpg">
+                        <source src="_media/getting-started.mp4" type="video/mp4" />
+                        Desculpe, mas não foi possível carregar o vídeo
+                    </video>
+
+                </div>
+
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright 2013/2020 - by Gustavo Guanabara and Mateus Vitor</p>
+            <p>Facebook | Twitter </p>
+        </footer>
 
     </div>
 
 </body>
 
 </html>
-
