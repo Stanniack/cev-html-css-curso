@@ -1,47 +1,95 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
 
-[AQUI ENTRA UMA FOTO]
+<html>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<head>
+    <title>Tudo Sobre Google Glass</title>
+    <!-- Link para chamar arquivos .css -->
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/media.css">    
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+</head>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+<script type="text/javascript" src="_javascript/funcoes.js"></script>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+<body>
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+    <div id="interface">
 
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+        <header id="cabecalho">
+
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="oculos_icone" src="_imagens/multimidia.png">
+
+            <nav id="layout" onmouseout="acaoFoto('_imagens/multimidia.png')">
+                <h1>Menu Principal</h1>
+                <ul type="square">
+                    <li onmousemove="acaoFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
+                    <li onmousemove="acaoFoto('_imagens/especificações.png')"><a href="specs.html">Especificações</a>
+                    </li>
+                    <li onmousemove="acaoFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmousemove="acaoFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmousemove="acaoFoto('_imagens/fale-conosco.png')"><a href="fale-conosco.html">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="conteudo_faleconosco">
+            <article id="artigo_princ">
+
+                <header id="cabecalho_artigo">
+                    <hgroup>
+                        <h2>Fale Conosco > Contato</h2>
+                        <h1>Formulário de Contato</h1>
+                        <h2>por Gustavo Guanabara | Mateus Vitor</h2>
+                        <h2><span>Atualizado em 21/Fevereiro/2020</span></h2>
+                    </hgroup>
+                </header>
 
 
-[BOTÃO ENVIAR]
+                Identificação do Usuário
+                    Nome:
+                    Senha:
+                    E-mail:
+                    Sexo:
+                        - Masculino
+                        - Feminino
+                    Data de Nascimento:
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+                Endereço do Usuário
+                    Logradouro:
+                    Número:
+                    Estado:
+                    Cidade:
+
+                Mensagem do Usuário
+                    Grau de Urgência:
+                    Mensagem:
+
+                Quero um Google Glass
+                    Gostaria de adquirir um Google Glass quando disponível
+                    Cor:
+                    Quantidade:
+                    Preço Total: R$
+
+
+                [BOTÃO ENVIAR]
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright 2013/2020 - by Gustavo Guanabara and Mateus Vitor</p>
+            <p>Facebook | Twitter </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
