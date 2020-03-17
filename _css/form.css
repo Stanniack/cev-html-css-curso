@@ -1,0 +1,8 @@
+
+input, textarea {
+    background-color: white;
+}
+
+input, textarea:hover {
+    background-color: #dddddd;
+}
